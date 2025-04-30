@@ -10,7 +10,7 @@ terraform {
     bucket = "81s-remot-state"
     key    = "expense-tools"
     region = "us-east-1"
-    dynamodb_table = "81s-locking"
+    use_lock_table = true
   }
 }
 
