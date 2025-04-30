@@ -7,11 +7,12 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "81s-remot-state"
-    key    = "expense-tools"
-    region = "us-east-1"
-    use_lock_table = true
-  }
+  bucket         = "81s-remot-state"
+  key            = "expense-tools"
+  region         = "us-east-1"
+  dynamodb_table = "81s-locking"
+}
+
 }
 
 provider "aws" {
