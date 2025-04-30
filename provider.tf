@@ -11,7 +11,7 @@ terraform {
   key            = "expense-tools"
   region         = "us-east-1"
   dynamodb_table = "81s-locking"
-}
+  }
 
 }
 
