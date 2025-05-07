@@ -1,5 +1,5 @@
 variable "zone_name" {
   type        = string
-  default     = "daws81s.space"
+  default     = "doddapaneni.shop"
   description = "description"
 }
