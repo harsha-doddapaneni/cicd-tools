@@ -17,4 +17,4 @@ xfs_growfs /var
 systemctl daemon-reload
 systemctl enable jenkins
 systemctl start jenkins
-    
+     
